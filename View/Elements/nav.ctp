@@ -12,7 +12,7 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Dashboard</a></li>
+        <li class="active"><a href="/helpscout/profiles">Dashboard</a></li>
         <li><a href="/helpscout/profiles/create">Create Profile</a></li>
          <li><a href="/helpscout/users/logout">Logout</a></li>
       </ul>

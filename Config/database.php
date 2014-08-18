@@ -69,7 +69,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'NOT-THE-PASSWORD!!',
+		'password' => '',
 		'database' => 'helpscout',
 		'prefix' => '',
 		//'encoding' => 'utf8',

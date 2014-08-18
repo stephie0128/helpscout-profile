@@ -19,7 +19,9 @@ class ProfilesController extends AppController {
 		if ($this->request->is('post')) {
         	if ($this->Profile->save($this->request->data)) {
             	$this->Session->setFlash(1);
-            	return $this->redirect(array('controller' => 'profiles', 'action' => 'create'));
+                $lastInsertId =  $this->Profile->getLastInsertID();
+            	return $this->redirect(array('controller' => 'profiles', 'action' => 'create', 
+            	                       '?' => array('lastId' => $lastInsertId)));
 			}
 		}
  	} 
@@ -53,24 +55,59 @@ class ProfilesController extends AppController {
     
     public function similar() {
         $this->layout = 'datatables';
-        //$profiles = $this->Profile->find('all');
-        //$this->set('profiles', $profiles);
-        $profileNames = $this->Profile->query("
-              SELECT profile_id, first_name, last_name,
-              COUNT(first_name) AS numOccurences
-              FROM profiles
-              GROUP BY first_name,last_name
-              HAVING ( COUNT(first_name) > 1 )");
-        var_dump($profileNames);      
-        $profileNumbers = $this->Profile->query("
-            SELECT profile_id, phone_number,
-            COUNT(phone_number) as numOccurences
-            FROM profiles
-            GROUP BY phone_number
-            HAVING ( COUNT(phone_number) > 1)");
         
-        var_dump($profileNumbers);
-        exit();
+        $duplicateProfiles = array();
+        $profiles = array();
+        $returnedProfiles = array();
+        
+        $phoneNumberDuplicates = $this->Profile->query("
+            SELECT Profile.profile_id, Profile.first_name, Profile.last_name, Profile.address_1, 
+                   Profile.phone_number, Profile.email
+            FROM profiles Profile
+            INNER JOIN (
+                SELECT phone_number, COUNT(*)
+                FROM profiles
+                GROUP BY phone_number
+                HAVING COUNT(*) > 1) temp 
+                ON temp.phone_number =  Profile.phone_number
+                ORDER BY phone_number
+            ");
+   
+       
+        $profileDuplicates = $this->Profile->query("
+            SELECT Profile.profile_id, Profile.first_name, Profile.last_name, Profile.address_1, 
+                   Profile.phone_number, Profile.email
+            FROM profiles Profile
+            INNER JOIN (
+                SELECT first_name, last_name, address_1, COUNT(*)
+                FROM profiles
+                GROUP BY first_name, last_name, address_1, city, state
+                HAVING COUNT(*) > 1) temp 
+                ON temp.first_name =  Profile.first_name
+                AND temp.last_name = Profile.last_name
+                AND temp.address_1 = Profile.address_1
+                ORDER BY first_name, last_name, address_1
+            ");
+   
+        $duplicateProfiles = array_merge($phoneNumberDuplicates, $profileDuplicates);
+        
+        ## From the two queries ran above filter out 
+        ## dupliate profile_id's
+        $profileIds = array();
+        foreach($duplicateProfiles as $key => $profiles) {
+            foreach ($profiles as $profile) {
+                $profileId = $profile['profile_id'];
+                if(in_array($profileId, $profileIds)) {
+                    continue;
+                } else {    
+                    $profileIds[] = $profile['profile_id'];
+                    $returnedProfiles[]['Profile'] = $profile;
+                }
+            }
+        }
+        
+        $this->set('profiles', $returnedProfiles);
+      
     }     
 }
     

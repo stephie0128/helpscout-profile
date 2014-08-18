@@ -1,11 +1,11 @@
 <?php 
 	if($this->Session->flash() != "") {
-	
+	    $lastId = $_GET['lastId'];	
 ?>	
 <div class="alert alert-success">  
   	<a class="close" data-dismiss="alert">×</a>  
     <strong>Success!</strong> Profile Created...  
-    <a href="">Click to view profile data!</a>
+    <a href="/helpscout/profiles/update/<?php echo $lastId; ?>">Click to view profile data!</a>
 	</div>
 <?php 
 	}

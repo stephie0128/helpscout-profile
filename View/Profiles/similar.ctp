@@ -17,11 +17,15 @@
 ?>
 
 <div class="well">
-<p> <strong>Similar profiles that are potential duplicates are listed here.</strong></p>
+<p> <strong>Similar profiles are listed here.</strong></p>
+<p>Currently two tests are being ran to identify potential duplicate profiles that are candidates to be deleted or merged</p>
+<p> - Identical Phone Numbers</p>
+<p> - Identical First Name, Last Name, Address One, City & State</p>
 </div>
 <table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
     <thead>
         <tr>
+            <th>Profile Id</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Phone Number</th>
@@ -32,7 +36,8 @@
     <tbody>
         
         <?php foreach($profiles as $profile) {  ?>
-        <tr class="gradeC">         
+        <tr class="gradeX">
+            <td><?php echo $profile['Profile']['profile_id']; ?></td>         
             <td><?php echo $profile['Profile']['first_name']; ?></td>
             <td><?php echo $profile['Profile']['last_name']; ?></td>  
             <td><?php echo $profile['Profile']['phone_number']; ?></td>  
@@ -67,6 +72,7 @@
         </tbody>
     <tfoot>
         <tr>
+            <th>Profile Id</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Phone Number</th>
