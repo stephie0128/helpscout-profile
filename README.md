@@ -10,5 +10,5 @@
 
 
 ### Hosted
-* [Profile](http://ec2-50-19-187-57.compute-1.amazonaws.com/helpscout/profiles)
+* [Profile Application - Click Here!](http://ec2-50-19-187-57.compute-1.amazonaws.com/helpscout/profiles)
  Authentication username = admin password = admin
