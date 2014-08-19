@@ -832,3 +832,608 @@ Stack Trace:
 #1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
 #2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-08-18 17:15:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:15:29 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:16:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:17:18 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:17:57 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:18:00 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:18:03 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:44 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:45 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:58 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:19:59 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:20:37 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:20:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 17:20:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:10:48 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:11:04 Error: [MissingActionException] Action ProfilesController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilesController',
+  'action' => 'js',
+)
+Request URL: /helpscout/profiles/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:11:57 Error: [MissingActionException] Action ProfilesController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilesController',
+  'action' => 'js',
+)
+Request URL: /helpscout/profiles/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:37:18 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:37:25 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:37:26 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:37:30 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:40:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:40:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:40:27 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:43:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:43:13 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:45:26 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:45:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:45:53 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:45:54 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:46:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:46:20 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:46:23 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:46:32 Error: [MissingActionException] Action ProfilesController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilesController',
+  'action' => 'js',
+)
+Request URL: /helpscout/profiles/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:46:33 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:46:38 Error: [MissingActionException] Action ProfilesController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilesController',
+  'action' => 'js',
+)
+Request URL: /helpscout/profiles/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:48:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:48:44 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:48:44 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:48:44 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:48:45 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:48:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:49:37 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:53:18 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:54:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:54:58 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:55:00 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:55:01 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:55:06 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:55:48 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:55:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-19 08:56:01 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /helpscout/users/js/main.js
+Stack Trace:
+#0 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/helpscout/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/helpscout/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

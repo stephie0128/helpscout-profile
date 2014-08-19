@@ -30,3 +30,11 @@ body {
 .bracket-button-padding {
 	padding-left: 60px;
 }
+
+.top-buffer {
+	 margin-top:70px; 
+}
+
+.flash-buffer {
+	margin-top:20px;    
+}

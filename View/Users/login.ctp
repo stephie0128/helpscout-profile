@@ -1,13 +1,11 @@
-<div class="users form">
-<?php echo $this->Session->flash('auth'); ?>
-<?php echo $this->Form->create('User'); ?>
-    <fieldset>
-        <legend>
-            <?php echo __('Please enter your username and password'); ?>
-        </legend>
+
+<?php echo '<div class="flash-buffer">' . $this->Session->flash('auth') . '</div>'; ?>
+<div class="top-buffer"></div>
+<div class="container">
+      <?php echo $this->Form->create('User', array('class' => 'form-signin')); ?>
+        <h2 class="form-signin-heading">Please sign in</h2>
         <?php echo $this->Form->input('username');
         echo $this->Form->input('password');
     ?>
-    </fieldset>
-<?php echo $this->Form->end(__('Login')); ?>
-</div>
+<div class="submit"> <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></div>
+</div> <!-- /container -->
